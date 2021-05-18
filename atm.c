@@ -31,7 +31,7 @@ main()
 					}
 					else
 					{
-						printf("Teri itni aukaat hai!\n");
+						printf("Insufficient balance.\n");
 					}
 				}
 				else
