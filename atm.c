@@ -1,18 +1,18 @@
 #include <stdio.h>
+#include<stdlib.h>
 main()
 {
 	int i,choice,pin;
 	float cash=10000;
-	char c,name[20];
-	printf("Please enter your name: ");
-	scanf("%s",&name);
-	printf("\nHello %s\n\n",name);
+	char c;
 	printf("Enter your Pin: ");
 	scanf("%d",&pin);
 	if(pin==1234)
 	{
+		printf("Pin successfully validated.\n\n");
+		printf("Hello Customer\n");
 	do{
-		printf("Choose your option\n1. Withdraw\n2. Deposit\n3. Balance Check\n\n");
+		printf("Choose your option\n1. Withdraw\n2. Deposit\n3. Balance Check\n4. Exit\n\n");
 		printf("Enter your option: ");
 		scanf("%d",&choice);
 		switch(choice)
@@ -61,6 +61,10 @@ main()
 				printf("Balance in account is Rs. %2.f\n",cash);
 				break;
 			}
+			case 4:
+			{
+				exit(1);
+			}
 			default:
 			{
 				printf("Enter valid option\n");
@@ -77,5 +81,5 @@ else
 {
 	printf("Wrong Pin");
 }
-  return 0;
+return 0;
 }
