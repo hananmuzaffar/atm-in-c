@@ -1,7 +1,7 @@
 # C language programs
 <h3>atm.c:</h3>
   <ul>
-    </li>Include conio header file if you are using Turbo C++ IDE. Write <code>#include <conio.h></code> below <code>#include <stdio.h></code></li>
+    <li>Include conio header file if you are using Turbo C++ IDE. Write <code>#include <conio.h></code> below <code>#include <stdio.h></code></li>
   </ul>
 <h3>password-generator.c:</h3> 
   <ul>
