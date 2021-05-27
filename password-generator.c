@@ -26,7 +26,7 @@ int main()
 	}
 	else
 	{
-		printf("Length should be greater than 8");
+		printf("Length should be greater than or equal to 8");
 	}
 return 0;
 }
