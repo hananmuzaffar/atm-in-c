@@ -5,7 +5,7 @@
   </ul>
 <h3>password-generator.c:</h3> 
   <ul>
-    <li>Password generator for for length greater or equal to 8.</li>
+    <li>Password generator for length greater or equal to 8.</li>
     <li>To change password length change value of <strong><em>len</em></strong> in <code>if(len>=8)</code> or initialize <strong><em>len</em></strong> during declaration.</li>
   </ul>
   
