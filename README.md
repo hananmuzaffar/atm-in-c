@@ -13,3 +13,8 @@
     <ul>
       <li>Include conio header file if you are using Turbo C++ IDE. Write <code>#include &lt;conio.h&gt;</code> below <code>#include &lt;stdio.h&gt;</code></li>
     </ul>
+  <h3>binary-encrypter.c:</h3> 
+    <ul>
+      <li>Include conio header file if you are using Turbo C++ IDE. Write <code>#include &lt;conio.h&gt;</code> below <code>#include &lt;stdio.h&gt;</code></li>
+      <li>Encrypt your sentence to binary code using this program.</li>
+    </ul>
