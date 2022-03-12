@@ -18,3 +18,8 @@
       <li>Include conio header file if you are using Turbo C++ IDE. Write <code>#include &lt;conio.h&gt;</code> below <code>#include &lt;stdio.h&gt;</code></li>
       <li>Encrypt your sentence to binary code using this program.</li>
     </ul>
+<h3>binary-decrypter.c:</h3> 
+    <ul>
+      <li>Include conio header file if you are using Turbo C++ IDE. Write <code>#include &lt;conio.h&gt;</code> below <code>#include &lt;stdio.h&gt;</code></li>
+      <li>Decrypt your binary code to sentence using this program.</li>
+    </ul>
