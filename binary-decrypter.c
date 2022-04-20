@@ -1,28 +1,32 @@
-#include <stdio.h>
-#include <string.h>
-int main()
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+main()
 {
-  int i,temp,x,y=1,binary=0;
-	char str[1000];
-	printf("Enter a sentence:\n");
-	gets(str);
-	i=0;
-	printf("Encrypted Binary code\n");
-	while(str[i]!='\0')
+	int i,j,temp,num,decimal,inc;
+	printf("Enter number of Binary Sets: ");
+	scanf("%d",&num);
+	int binary[num];
+	printf("Enter a Binary code separated with space:\n");
+	for(i=0;i<num;i++)
 	{
-		y=1,binary=0;
-		temp=str[i];
+		scanf("%d",&binary[i]);
+	}
+	printf("Decrypted Binary Code:\n");
+	for(j=0;j<num;j++)
+	{
+		temp=binary[j];
+		inc=0;
+		decimal=0;
 		while(temp!=0)
 		{
-			x=temp%2;
-			binary=binary+(x*y);
-			temp=temp/2;
-			y=y*10;
+			i=temp%10;
+			decimal=decimal+(i*pow(2,inc));
+			temp=temp/10;
+			inc++;
 		}
-		printf("%d ",binary);
-		
-		i++;
+		printf("%c",decimal);
 	}
 	printf("\n");
-  return 0;
+	return 0;
 }
